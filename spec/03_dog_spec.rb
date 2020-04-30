@@ -43,5 +43,4 @@ describe Dog do
       Dog.all.include?(@dog)
     end
   end
-
 end
