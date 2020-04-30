@@ -2,6 +2,7 @@ require_relative 'spec_helper.rb'
 
 describe "Associations" do
   before do
+    Owner.all.clear
     @owner = Owner.new("Timmy")
   end
 
@@ -25,6 +26,7 @@ describe "Associations" do
 
     describe "#dogs" do
       it "returnsa a collection of all the dogs that belong to the owner" do
+      
         dog_1 = Dog.new("Fido", @owner)
         dog_2 = Dog.new("Snuffles", @owner)
         dog_3 = Dog.new("Charley", @owner)
