@@ -15,7 +15,7 @@ class Dog
     @owner = owner
   end
 
-  def self.all 
+  def self.all
     @@all
   end
 end

@@ -6,6 +6,10 @@ describe Owner do
     @owner = Owner.new("Victoria")
   end
 
+  # after do
+  #   Owner.all.clear
+  # end
+
   context 'Instance methods' do
 
     describe "#name" do
