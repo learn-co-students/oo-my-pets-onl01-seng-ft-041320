@@ -5,9 +5,9 @@ describe "Associations" do
     @owner = Owner.new("Timmy")
   end
 
-  after do
-    Owner.all.clear
-  end
+  # after do
+  #   Owner.all.clear
+  # end
 
   context 'Owner instance methods' do
     describe "#cats" do
